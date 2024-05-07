@@ -91,6 +91,6 @@ kubectl apply -f https://github.com/coreos/flannel/raw/master/Documentation/kube
 #rm -rf /var/lib/cni/
 #sudo rm -rf /var/lib/cni/
 
-#systemctl daemon-reload
+#sudo systemctl daemon-reload
 
-#systemctl restart kubelet
+#sudo systemctl restart kubelet
